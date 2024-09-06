@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primeira-sessao{
+    background-color: blue;
+    // largura
+    width: 500px;
+    height: 500px;
+// alinhamento 
+    div{
+        background-color: rgba(0, 0, 0, 0.261);
+        width: 50vw;
+        height: 50vh;
+    }
+      // medidas relativas
+    // vw (viewport width)
+    // Largura da janela de exibição
+}
+
+.segunda-sessao{
+    background-color: blue;
+    width: 70vh;
+    height: 70vh;
+    
+    div{
+        background-color: rgba(0, 0, 0, 0.261);
+        // % porcentagem
+        //relaiva ao pai
+        width: 50%;
+        height: 50%;
+    }
+    // medidas relativas
+    // vw (viewport width)
+    // Largura da janela de exibição
+}
